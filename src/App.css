@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(4, 4, 30);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+  
+.space {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.star {
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+}
+  
+.star:focus {
+    box-shadow: 0 0 10px 2px white;
+    transform: scale(1.2);
+}
+  
